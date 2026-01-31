@@ -1,0 +1,9 @@
+{
+  "title": "Classes - Curiosity Institute",
+  "path": "classes.html",
+  "programs": [
+    { "title": "Leadership", "image": "images/course-communication.jpg" },
+    { "title": "Entrepreneurship", "image": "images/course-entrepreneurship.jpg" },
+    { "title": "Communication", "image": "images/course-communication.jpg" }
+  ]
+}

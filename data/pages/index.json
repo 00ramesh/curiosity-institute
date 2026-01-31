@@ -1,0 +1,21 @@
+{
+  "title": "Curiosity Institute - Professional Coaching & Learning",
+  "path": "index.html",
+  "hero": {
+    "heading": "Welcome to Curiosity Institute",
+    "subheading": "Unlock Your Potential Through Professional Coaching and Advanced Learning Programs",
+    "actions": [
+      { "label": "Explore Classes", "href": "classes.html" },
+      { "label": "Get Started", "href": "contact.html" }
+    ]
+  },
+  "features": [
+    { "title": "Expert Instructors", "description": "Learn from industry professionals with decades of combined experience.", "image": "images/feature-experts.jpg" },
+    { "title": "Personalized Learning", "description": "Customized programs tailored to your specific needs.", "image": "images/feature-experts.jpg" },
+    { "title": "Flexible Schedule", "description": "Both online and in-person class options available.", "image": "images/feature-flexible.jpg" },
+    { "title": "Industry Certifications", "description": "Earn recognized certifications that boost your career prospects.", "image": "images/feature-cert.jpg" },
+    { "title": "Community Support", "description": "Join a vibrant community of learners.", "image": "images/hero-professionals.jpg" },
+    { "title": "Success Tools & Resources", "description": "Access comprehensive materials, mentoring, and tools.", "image": "images/feature-tools.jpg" }
+  ],
+  "stats": { "students": 5000, "coaches": 50, "successRate": "95%" }
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Books & Resources",
+  "path": "books.html",
+  "books": [
+    { "id": 1, "title": "Mathematics Class X", "subject": "math", "class": "Class X", "description": "Comprehensive mathematics textbook covering algebra, geometry, trigonometry, and statistics.", "pdfUrl": "https://ncert.nic.in/textbook.php" },
+    { "id": 2, "title": "Science Class IX", "subject": "science", "class": "Class IX", "description": "Physics, Chemistry, and Biology fundamentals with practical applications.", "pdfUrl": "https://ncert.nic.in/textbook.php" },
+    { "id": 3, "title": "English Literature", "subject": "english", "class": "Class VIII-X", "description": "Classic and modern stories, poems, and drama selections.", "pdfUrl": "https://ncert.nic.in/textbook.php" },
+    { "id": 4, "title": "Hindi (संस्कृत)", "subject": "hindi", "class": "Class VII-X", "description": "Hindi language and literature covering grammar and composition.", "pdfUrl": "https://ncert.nic.in/textbook.php" },
+    { "id": 5, "title": "Social Studies", "subject": "sst", "class": "Class VI-X", "description": "History, geography, civics, and economics.", "pdfUrl": "https://ncert.nic.in/textbook.php" },
+    { "id": 6, "title": "Science Class X", "subject": "science", "class": "Class X", "description": "Advanced physics, chemistry, and biology topics.", "pdfUrl": "https://ncert.nic.in/textbook.php" }
+  ],
+  "resources": {
+    "ncert": "https://ncert.nic.in/textbook.php",
+    "epathshala": "https://epathshala.nic.in/",
+    "swayam": "https://swayam.gov.in/",
+    "diksha": "https://diksha.gov.in/"
+  }
+}

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books & Resources - Curiosity Institute</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo.svg" alt="Curiosity Institute Logo" class="logo-icon">
+                Curiosity <span>Institute</span>
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="classes.html">Classes</a>
+                <a href="books.html">Books</a>
+                <a href="team.html">Our Team</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="books-container">
+        <div class="books-header">
+            <h1>📚 Books & Resources</h1>
+            <p>Access NCERT textbooks and study materials for all classes</p>
+        </div>
+        
+        <div class="filter-buttons">
+            <button class="active" onclick="filterBooks('all')">All Books</button>
+            <button onclick="filterBooks('math')">Mathematics</button>
+            <button onclick="filterBooks('science')">Science</button>
+            <button onclick="filterBooks('english')">English</button>
+            <button onclick="filterBooks('hindi')">Hindi</button>
+            <button onclick="filterBooks('sst')">Social Studies</button>
+        </div>
+        
+        <div class="books-grid" id="booksGrid">
+            <!-- Books will be populated here -->
+        </div>
+        
+        <div class="resources-section">
+            <h2>📖 Official Resources</h2>
+            <ul>
+                <li><strong>NCERT Textbooks:</strong> <a href="https://ncert.nic.in/textbook.php" target="_blank">Visit NCERT Official Textbooks Portal</a> - Download complete textbooks for classes I-XII</li>
+                <li><strong>NCERT Solutions:</strong> <a href="https://ncert.nic.in/exemplar/index.html" target="_blank">NCERT Exemplar Problems</a> - Practice problems and solutions</li>
+                <li><strong>Study Material:</strong> <a href="https://epathshala.nic.in/" target="_blank">ePathshala</a> - Interactive learning resources</li>
+                <li><strong>Online Learning:</strong> <a href="https://swayam.gov.in/" target="_blank">SWAYAM Platform</a> - Free online courses and certifications</li>
+                <li><strong>Digital Content:</strong> <a href="https://diksha.gov.in/" target="_blank">DIKSHA</a> - Digital Infrastructure for Knowledge Sharing</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>About Curiosity Institute</h4>
+                <p class="text-muted">We are dedicated to helping professionals achieve their goals through innovative coaching and learning programs.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="classes.html">Classes</a>
+                <a href="books.html">Books</a>
+                <a href="team.html">Our Team</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Info</h4>
+                <p class="text-muted"><strong>Email:</strong> info@curiosityinstitute.com</p>
+                <p class="text-muted"><strong>Phone:</strong> +1 (555) 123-4567</p>
+                <p class="text-muted"><strong>Address:</strong> 123 Learning Street, Education City, EC 12345</p>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Curiosity Institute. All rights reserved. | <a href="#" class="footer-link">Privacy Policy</a> | <a href="#" class="footer-link">Terms of Service</a></p>
+        </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+    <script>
+        const booksData = [
+            {
+                id: 1,
+                title: "Mathematics Class X",
+                subject: "math",
+                class: "Class X",
+                description: "Comprehensive mathematics textbook covering algebra, geometry, trigonometry, and statistics.",
+                pdfUrl: "https://ncert.nic.in/textbook.php",
+                ncertUrl: "https://ncert.nic.in/textbook.php"
+            },
+            {
+                id: 2,
+                title: "Science Class IX",
+                subject: "science",
+                class: "Class IX",
+                description: "Physics, Chemistry, and Biology fundamentals with practical applications.",
+                pdfUrl: "https://ncert.nic.in/textbook.php",
+                ncertUrl: "https://ncert.nic.in/textbook.php"
+            },
+            {
+                id: 3,
+                title: "English Literature",
+                subject: "english",
+                class: "Class VIII-X",
+                description: "Classic and modern stories, poems, and drama selections for language development.",
+                pdfUrl: "https://ncert.nic.in/textbook.php",
+                ncertUrl: "https://ncert.nic.in/textbook.php"
+            },
+            {
+                id: 4,
+                title: "Hindi (संस्कृत)",
+                subject: "hindi",
+                class: "Class VII-X",
+                description: "Hindi language and literature covering grammar, composition, and cultural texts.",
+                pdfUrl: "https://ncert.nic.in/textbook.php",
+                ncertUrl: "https://ncert.nic.in/textbook.php"
+            },
+            {
+                id: 5,
+                title: "Social Studies",
+                subject: "sst",
+                class: "Class VI-X",
+                description: "History, geography, civics, and economics covering Indian and world history.",
+                pdfUrl: "https://ncert.nic.in/textbook.php",
+                ncertUrl: "https://ncert.nic.in/textbook.php"
+            },
+            {
+                id: 6,
+                title: "Science Class X",
+                subject: "science",
+                class: "Class X",
+                description: "Advanced physics, chemistry, and biology topics with experiments and practical knowledge.",
+                pdfUrl: "https://ncert.nic.in/textbook.php",
+                ncertUrl: "https://ncert.nic.in/textbook.php"
+            }
+        ];
+        
+        function renderBooks(filter = 'all') {
+            const grid = document.getElementById('booksGrid');
+            grid.innerHTML = '';
+            
+            const filtered = filter === 'all' ? booksData : booksData.filter(b => b.subject === filter);
+            
+            filtered.forEach(book => {
+                const card = document.createElement('div');
+                card.className = 'book-card';
+                card.innerHTML = `
+                    <div class="book-cover">${book.title}</div>
+                    <div class="book-info">
+                        <div class="book-subject">${book.subject.toUpperCase()}</div>
+                        <h3>${book.title}</h3>
+                        <span class="book-class">${book.class}</span>
+                        <p class="book-description">${book.description}</p>
+                        <div class="book-links">
+                            <a href="${book.pdfUrl}" target="_blank" class="btn-pdf">📥 PDF</a>
+                            <a href="${book.ncertUrl}" target="_blank" class="btn-ncert">🌐 NCERT</a>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+        
+        function filterBooks(category) {
+            // Update active button
+            document.querySelectorAll('.filter-buttons button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            renderBooks(category);
+        }
+        
+        // Initial render
+        renderBooks();
+    </script>
+</body>
+</html>

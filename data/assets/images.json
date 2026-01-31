@@ -1,0 +1,16 @@
+{
+  "images": [
+    "course-communication.jpg",
+    "course-entrepreneurship.jpg",
+    "course-leadership.jpg",
+    "feature-cert.jpg",
+    "feature-experts.jpg",
+    "feature-tools.jpg",
+    "hero-contact.jpg",
+    "hero-data-science.jpg",
+    "hero-learning.jpg",
+    "logo.svg",
+    "team-sarah.jpg"
+  ],
+  "path": "images/"
+}

@@ -1,0 +1,9 @@
+{
+  "title": "Contact - Curiosity Institute",
+  "path": "contact.html",
+  "contact": {
+    "email": "info@curiosityinstitute.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Learning Street, Education City, EC 12345"
+  }
+}

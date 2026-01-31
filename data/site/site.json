@@ -1,0 +1,5 @@
+{
+  "siteName": "Curiosity Institute",
+  "baseUrl": "/",
+  "pages": ["index.html","classes.html","books.html","team.html","about.html","contact.html"]
+}

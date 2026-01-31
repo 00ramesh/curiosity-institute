@@ -1,0 +1,10 @@
+{
+  "nav": [
+    { "label": "Home", "href": "index.html" },
+    { "label": "Classes", "href": "classes.html" },
+    { "label": "Books", "href": "books.html" },
+    { "label": "Our Team", "href": "team.html" },
+    { "label": "About Us", "href": "about.html" },
+    { "label": "Contact", "href": "contact.html" }
+  ]
+}

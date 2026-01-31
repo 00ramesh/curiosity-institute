@@ -1,0 +1,10 @@
+{
+  "company": "Curiosity Institute",
+  "copyright": "© 2024 Curiosity Institute",
+  "quickLinks": ["index.html","classes.html","books.html","team.html","about.html","contact.html"],
+  "contact": {
+    "email": "info@curiosityinstitute.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Learning Street, Education City, EC 12345"
+  }
+}

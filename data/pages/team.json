@@ -1,0 +1,7 @@
+{
+  "title": "Our Team - Curiosity Institute",
+  "path": "team.html",
+  "members": [
+    { "name": "Sarah", "role": "Lead Instructor", "image": "images/team-sarah.jpg" }
+  ]
+}

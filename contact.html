@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Curiosity Institute</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.svg" alt="Curiosity Institute Logo" class="logo-icon">
+        Curiosity <span>Institute</span>
+      </a>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="classes.html">Classes</a>
+        <a href="books.html">Books</a>
+        <a href="team.html">Our Team</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="mobile-menu-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero hero-contact">
+    <div class="hero-content">
+      <h1>Get In Touch With Us</h1>
+      <p>We'd love to hear from you and help you take the next step in your professional journey</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <h2>Contact Information</h2>
+      
+      <!-- Contact Info Cards -->
+      <div class="contact-cards-grid">
+        <div class="card">
+          <div class="card-content card-centered">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3 class="card-title">Visit Us</h3>
+            <p class="card-description">
+              123 Learning Street<br>
+              Education City, EC 12345<br>
+              United States
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content card-centered">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <h3 class="card-title">Call Us</h3>
+            <p class="card-description">
+              Main: +1 (555) 123-4567<br>
+              Support: +1 (555) 987-6543<br>
+              Available: Mon-Fri 9am-6pm EST
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content card-centered">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3 class="card-title">Email Us</h3>
+            <p class="card-description">
+              General: info@curiosityinstitute.com<br>
+              Admissions: admissions@curiosityinstitute.com<br>
+              Support: support@curiosityinstitute.com
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <h2>Send Us a Message</h2>
+      <form id="contactForm" class="form-container">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject *</label>
+            <select id="subject" name="subject" required>
+              <option value="">Select a subject...</option>
+              <option value="admissions">Admissions Inquiry</option>
+              <option value="coaching">Coaching Program</option>
+              <option value="corporate">Corporate Training</option>
+              <option value="support">Technical Support</option>
+              <option value="feedback">Feedback</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" required placeholder="Tell us how we can help you..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary form-button">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Office Hours -->
+  <section>
+    <div class="container">
+      <h2>Office Hours</h2>
+      <div class="office-hours-grid">
+        <div class="card">
+          <div class="card-content">
+            <h3 class="card-title"><i class="fas fa-calendar-alt"></i>Monday - Friday</h3>
+            <p class="card-description office-hours-time">
+              <strong>9:00 AM - 6:00 PM EST</strong><br>
+              <span class="office-hours-note">General inquiries and support</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h3 class="card-title"><i class="fas fa-sun"></i>Saturday</h3>
+            <p class="card-description office-hours-time">
+              <strong>10:00 AM - 4:00 PM EST</strong><br>
+              <span class="office-hours-note">Limited support available</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <h3 class="card-title"><i class="fas fa-moon"></i>Sunday & Holidays</h3>
+            <p class="card-description office-hours-time">
+              <strong>Closed</strong><br>
+              <span class="office-hours-note">We'll respond on the next business day</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-center-section">
+    <div class="container">
+      <h2>Ready to Transform Your Career?</h2>
+      <p>
+        Don't wait. Reach out to us today and schedule your free consultation with one of our expert coaches.
+      </p>
+      <a href="#contactForm" class="btn btn-primary">Contact Us Now</a>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>About Curiosity Institute</h4>
+        <p class="text-muted">We are dedicated to helping professionals achieve their goals through innovative coaching and learning programs.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="classes.html">Classes</a>
+        <a href="team.html">Our Team</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-section">
+        <h4>Contact Info</h4>
+        <p class="text-muted"><strong>Email:</strong> info@curiosityinstitute.com</p>
+        <p class="text-muted"><strong>Phone:</strong> +1 (555) 123-4567</p>
+        <p class="text-muted"><strong>Address:</strong> 123 Learning Street, Education City, EC 12345</p>
+      </div>
+      <div class="footer-section">
+        <h4>Follow Us</h4>
+        <div class="social-links">
+          <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Curiosity Institute. All rights reserved. | <a href="#" class="footer-link">Privacy Policy</a> | <a href="#" class="footer-link">Terms of Service</a></p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
